@@ -11,3 +11,11 @@
 [cursor-pointer] {
     cursor: pointer;
 }
+
+[clear-float] {
+    &::after {
+        content: '';
+        clear: both;
+        display: table;
+    }
+}

@@ -206,20 +206,300 @@
                 </ul>
             </div>
         </section>
-
-        <p class="quicksand">
-            or check us in action with
-            <span>Free Plan</span>
-        </p>
-
+    </section>
+    <p class="quicksand">
+        or check us in action with
+        <span cursor-pointer>Free Plan</span>
+    </p>
+    <section clear-float class="funky-box">
+        <SvgoMoneyBackGuarantee></SvgoMoneyBackGuarantee>
+        <div class="text">
+            <p>14 day money-back</p>
+            <p>guarantee</p>
+        </div>
+        <ul>
+            <li>
+                <SvgoCheckmarkDark></SvgoCheckmarkDark>
+                Easily upgrade or downgrade
+            </li>
+            <li>
+                <SvgoCheckmarkDark></SvgoCheckmarkDark>
+                No fixed term contracts
+            </li>
+            <li>
+                <SvgoCheckmarkDark></SvgoCheckmarkDark>
+                2 months free if paid yearly
+            </li>
+            <li>
+                <SvgoCheckmarkDark></SvgoCheckmarkDark>
+                Instant prorated refunds
+            </li>
+        </ul>
+    </section>
+    <section id="see-all-NitroPack-features" class="all-features">
+        <h1 class="title">All NitroPack plans include</h1>
+        <ul clear-float>
+            <li clear-float>
+                <div class="left">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    All-in-one automated performance optimization
+                </div>
+                <div class="right">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    Advanced Caching Mechanism
+                </div>
+            </li>
+            <li clear-float>
+                <div class="left">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    Fast and easy setup, less than 5 minutes
+                </div>
+                <div class="right">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    Complete Image Optimization Stack
+                </div>
+            </li>
+            <li clear-float>
+                <div class="left">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    14-day money back guarantee
+                </div>
+                <div class="right">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    Built-in global CDN
+                </div>
+            </li>
+            <li clear-float>
+                <div class="left">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    Expert support team
+                </div>
+                <div class="right">
+                    <SvgoTickmarkSecondary></SvgoTickmarkSecondary>
+                    World-class proprietary speed algorithm
+                </div>
+            </li>
+        </ul>
+        <a class="bottom" href="#see-all-NitroPack-features">see all NitroPack features</a>
     </section>
 
-    <!-- <NuxtLink to="/about">about</NuxtLink>
-    <el-button type="primary">Primary</el-button> -->
+    <section class="mega">
+        <h1>NitroPack speeds up 193,000+ websites every day.</h1>
+        <p>Including</p>
+    </section>
+    <section class="logos">
+        <div class="l-1">
+            <SvgoVoicesLogo></SvgoVoicesLogo>
+            <SvgoDevrixLogo></SvgoDevrixLogo>
+            <SvgoWaterfrontDigitalLogo></SvgoWaterfrontDigitalLogo>
+        </div>
+        <div class="l-2">
+            <SvgoSmartbloggerLogo></SvgoSmartbloggerLogo>
+            <SvgoPartnerizeLogo></SvgoPartnerizeLogo>
+            <SvgoArageekLogo></SvgoArageekLogo>
+        </div>
+    </section>
+    <section class="faq">
+        <p bold>FAQs</p>
+        <p bold>Using NitroPack is easy.</p>
+        <ul>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <SvgoArrowDown></SvgoArrowDown>
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+            <li>
+                <div clear-float class="question">
+                    <p>Do I need to have coding skills to use NitroPack? </p>
+                    <!-- icon -->
+                </div>
+                <div class="answer">
+                    No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
+                    regardless of their tech skills. Learn
+                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    and speed up your site on autopilot.
+                </div>
+            </li>
+        </ul>
+    </section>
 </template>
 
 <script setup>
-
 let switchWord = ref('month')
 
 const switchClick = () => {
@@ -455,9 +735,257 @@ hr {
             font-weight: bold;
             margin-bottom: 15px;
         }
+
         &-explain {
             line-height: 24px;
             padding-right: 89px;
+        }
+    }
+}
+
+.quicksand {
+    margin: 59px 0;
+    font-size: 20px;
+    text-align: center;
+
+    span {
+        color: #3800a2;
+    }
+}
+
+.funky-box {
+    background-color: #d0fdf5;
+    border-radius: 30px 0;
+    padding: 16px 16px 48px;
+
+    .nuxt-icon {
+        width: 228px;
+        height: 209px;
+        fill: revert-layer;
+        float: left;
+    }
+
+    :deep(.nuxt-icon *) {
+        fill: revert-layer;
+    }
+
+    .text {
+        height: 211px;
+        float: left;
+        font-size: 40px;
+        font-weight: bold;
+        color: #1b004e;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 84px 0 32px;
+
+    }
+
+    ul {
+        float: left;
+        list-style: none;
+        margin-top: 28px;
+
+        .nuxt-icon {
+            width: 24px;
+            height: 19px;
+            margin-right: 20px;
+        }
+
+        li {
+            margin-bottom: 20px;
+            color: #1b004e;
+        }
+    }
+}
+
+.all-features {
+    margin-top: 90px;
+    background-color: #1b004e;
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 93px;
+    position: relative;
+    padding-bottom: 176px;
+
+    .title {
+        color: #fff;
+        margin-top: 100px;
+    }
+
+    ul {
+        padding: 0px 30px;
+        list-style: none;
+
+        li {
+            width: 100%;
+            font-size: 22px;
+            margin-bottom: 35px;
+            padding-left: 15px;
+
+            .right {
+                margin-left: 20px;
+                width: calc(50% - 20px);
+            }
+
+            .left {
+                width: 50%;
+            }
+
+            div {
+                float: left;
+                display: flex;
+            }
+
+            .nuxt-icon {
+                width: 44px;
+                height: 25px;
+                position: relative;
+                top: 5px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .bottom {
+        font-size: 22px;
+        color: #25f5ce !important;
+        text-decoration: none;
+        position: absolute;
+        bottom: 97px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        &:hover {
+            text-decoration: underline;
+            opacity: .6;
+        }
+    }
+}
+
+.mega {
+    h1 {
+        margin: 0 auto;
+        max-width: 903px;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #1b004e;
+        margin-bottom: 78px;
+    }
+}
+
+.logos {
+    .l-1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .l-2 {
+
+        text-align: center;
+    }
+
+    .nuxt-icon {
+        margin-right: 50px;
+    }
+
+    .nuxt-icon:nth-of-type(1) {
+        width: 211.71px;
+        height: 46.39px;
+    }
+
+    .nuxt-icon:nth-of-type(2) {
+        width: 211.73px;
+        height: 83.6px;
+    }
+
+    .nuxt-icon:nth-of-type(3) {
+        width: 211.73px;
+        height: 88.03px;
+    }
+
+    .nuxt-icon:nth-of-type(4) {
+        width: 211.71px;
+        height: 84.39px;
+    }
+
+    .nuxt-icon:nth-of-type(5) {
+        width: 211.71px;
+        height: 33.39px;
+    }
+
+    .nuxt-icon:nth-of-type(6) {
+        width: 211.71px;
+        height: 36.39px;
+    }
+
+    .nuxt-icon:nth-of-type(7) {
+        width: 211.71px;
+        height: 68.39px;
+    }
+}
+
+.faq {
+    background-color: #c4fdf3;
+    margin: 48px 15px;
+    border-radius: 30px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    >p:nth-of-type(1) {
+        color: #3800a2;
+        margin-top: 110px;
+    }
+
+    >p:nth-of-type(2) {
+        font-size: 52px;
+        color: #1b004e;
+        max-width: 560px;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: 10px;
+        list-style: none;
+
+        li {
+            padding: 15px 0;
+
+            .question {
+                font-size: 22px;
+                color: #212529;
+                position: relative;
+
+                p {
+                    float: left;
+                    width: 514px;
+                    padding-right: 20px;
+                    letter-spacing: 1px;
+                }
+
+                .nuxt-icon {
+                    float: left;
+                    color: #8C7FA6;
+                    cursor: pointer;
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+
+            .answer {
+                display: none;
+            }
+
+            &:not(:nth-of-type(1)) {
+                border-top: 2px solid #25F5CE;
+            }
         }
     }
 }
