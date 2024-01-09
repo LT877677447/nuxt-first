@@ -1,4 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: [
+    '@element-plus/nuxt',
+    'nuxt-svgo',
+  ],
+  svgo: {
+    autoImportPath: './assets/icons/'
+  },
+  css: ['~/assets/less/global.less'],
 })
