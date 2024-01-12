@@ -306,19 +306,18 @@
             <li>
                 <div clear-float class="question">
                     <p>Do I need to have coding skills to use NitroPack? </p>
-                    <SvgoArrowDown></SvgoArrowDown>
+                    <SvgoArrowDown @click="collapse"></SvgoArrowDown>
                 </div>
-                <div class="answer">
+                <div class="answer collapsed">
                     No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
                     regardless of their tech skills. Learn
-                    <strong class="color"> all you need to know about the NitroPack plans</strong>
+                    <strong cursor-pointer class="color"> all you need to know about the NitroPack plans</strong>
                     and speed up your site on autopilot.
                 </div>
             </li>
             <li>
                 <div clear-float class="question">
                     <p>Do I need to have coding skills to use NitroPack? </p>
-                    <!-- icon -->
                 </div>
                 <div class="answer">
                     No. With our connectors for WordPress, OpenCart, WooCommerce, and Magento, anyone can use NitroPack
@@ -500,11 +499,75 @@
 </template>
 
 <script setup>
+import { styleType } from 'element-plus/es/components/table-v2/src/common';
+
 let switchWord = ref('month')
 
 const switchClick = () => {
     if (switchWord.value === 'month') switchWord.value = 'year'
     else switchWord.value = 'month'
+}
+
+const _setHeight = (e) => {
+    const style = getComputedStyle(e)
+    const transition = style.transition
+    const width = style.width
+    const position = style.position
+    const opacity = style.opacity
+    const padding = style.padding
+
+    // e.style.width = style.width
+    e.style.transition = 0
+    e.style.opacity = 0
+    e.style.width = width
+    e.style.padding = '0 0 25px'
+    e.style.position = 'absolute'
+
+    e.style.height = e.getBoundingClientRect().height
+
+    e.style.transition = transition
+    e.style.position = position
+    e.style.opacity = opacity
+    e.style.padding = '0 0 25px'
+}
+
+const collapse = (e) => {
+    const answer = e?.target?.parentElement?.parentElement?.querySelector?.('.answer')
+    if (!answer) return
+
+    if (answer.classList.contains('collapsed')) {
+        answer.classList.remove('collapsed')
+
+        // _setHeight(answer)
+
+        answer.classList.add('expanded')
+
+
+
+    } else if (answer.classList.contains('expanded')) {
+
+
+
+        answer.classList.remove('expanded')
+        answer.classList.add('collapsed')
+    }
+
+    // const style = answer.style
+    // if (['', 'none'].includes(style.display)) {
+    //     style.display = 'block'
+    //     setTimeout(() => {
+    //         style.height = '160px'
+    //         style.padding = '24px 0 25px'
+    //     }, 0);
+    // } else {
+    //     style.height = '0px'
+    //     style.padding = '0px'
+    //     setTimeout(() => {
+    //         style.display = 'none'
+    //     }, 300);
+    // }
+    // console.log(style.display);
+    // console.log(style.height);
 }
 
 </script>
@@ -954,33 +1017,62 @@ hr {
     ul {
         margin-top: 10px;
         list-style: none;
+        width: 46%;
+        max-width: 615.78px;
+        min-width: 497.1px;
 
         li {
-            padding: 15px 0;
+            padding: 15px 0 0;
 
             .question {
+                display: flex;
                 font-size: 22px;
                 color: #212529;
                 position: relative;
 
                 p {
-                    float: left;
-                    width: 514px;
-                    padding-right: 20px;
+                    padding-right: 25px;
+                    padding-bottom: 20px;
                     letter-spacing: 1px;
                 }
 
                 .nuxt-icon {
-                    float: left;
+                    align-self: flex-end;
                     color: #8C7FA6;
                     cursor: pointer;
-                    position: absolute;
-                    bottom: 0;
                 }
+
+
             }
 
             .answer {
-                display: none;
+                // display: none;
+                font-size: 16px;
+                color: #212529;
+                line-height: 24px;
+                transition: .5s ease;
+                overflow: hidden;
+
+                strong {
+                    color: #3800a2;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: #1e0056;
+                    }
+                }
+
+                &.collapsed {
+                    padding: 0;
+                    height: 0;
+                }
+
+                &.expanded {
+                    padding: 0 0 25px;
+                    // height: auto;
+                    height: 160px;
+                    border-bottom: 3px solid #25F5CE;
+                }
             }
 
             &:not(:nth-of-type(1)) {
