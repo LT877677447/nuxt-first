@@ -1,4 +1,5 @@
 <template>
+    <AppHeader></AppHeader>
     <h1>Choose Your NitroPack Plan</h1>
     <h2>Upgrade, downgrade or cancel your plan at any time.</h2>
     <h2> No contract and full 14-day Money Back Guarantee.</h2>
