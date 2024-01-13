@@ -1,10 +1,14 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@element-plus/nuxt',
     'nuxt-svgo',
   ],
+  routeRules: {
+    '/api/**': {
+      proxy: 'http://localhost:3001/api/**'
+    }
+  },
   svgo: {
     autoImportPath: './assets/icons/'
   },
