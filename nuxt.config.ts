@@ -10,7 +10,11 @@ export default defineNuxtConfig({
     }
   },
   svgo: {
-    autoImportPath: './assets/icons/'
+    autoImportPath: '~/assets/icons/'
   },
   css: ['~/assets/less/global.less'],
+  plugins: [
+    '~/plugins/MessageBox/index.ts',
+    '~/plugins/Axios/index.ts',
+  ],
 })

@@ -68,3 +68,11 @@ axios.interceptors.response.use(
         return Promise.reject(error)
     }
 );
+
+export default defineNuxtPlugin(nuxtApp => {
+    // nuxtApp.vueApp.use({
+    //     install(app) {
+    //         app.config.globalProperties.$message = _MessageBox.message
+    //     }
+    // })
+})

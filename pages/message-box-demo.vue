@@ -1,21 +1,41 @@
 <template>
     <main>
-
-        <el-button @click="sendRequest">Default</el-button>
-
+        <el-button @click="onClick">open MessageBox</el-button>
     </main>
 </template>
 <script setup>
-import axios from 'axios'
+import { getCurrentInstance } from 'vue'
 
-const sendRequest = async () => {
-    axios.post('/api/', {
-    }).then(data => {
-        console.log('服务器响应', data);
-    }).catch(err => {
-        console.log('catch axios 抛出的错误', err);
-    })
+const { appContext: { config: { globalProperties } } } = getCurrentInstance()
+// console.log('globalProperties', globalProperties);
+
+const onClick = () => {
+    globalProperties.$message(
+        '标题',
+        'steam太好玩了',
+        {
+            btns: [
+                {
+                    text: '确定',
+                    onclick() {
+                        alert('确定')
+                    }
+                },
+                {
+                    text: '取消',
+                    onclick() {
+                        alert('取消')
+                    }
+                },
+            ],
+        }
+    )
 }
+
+onMounted(() => {
+    // globalProperties.$message()
+})
+
 
 </script>
 <style scoped lang="less"></style>

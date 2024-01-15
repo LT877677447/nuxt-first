@@ -500,8 +500,6 @@
 </template>
 
 <script setup>
-import { styleType } from 'element-plus/es/components/table-v2/src/common';
-
 let switchWord = ref('month')
 
 const switchClick = () => {
