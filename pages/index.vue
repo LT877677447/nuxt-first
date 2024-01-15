@@ -1,4 +1,5 @@
 <template>
+    <!-- 仿照官网 https://nitropack.io/pricing -->
     <AppHeader></AppHeader>
     <h1>Choose Your NitroPack Plan</h1>
     <h2>Upgrade, downgrade or cancel your plan at any time.</h2>
