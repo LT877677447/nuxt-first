@@ -1,8 +1,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  imports: {
+    dirs: [
+      'composables'
+    ]
+  },
   modules: [
     '@element-plus/nuxt',
     'nuxt-svgo',
+    '@pinia/nuxt'
   ],
   routeRules: {
     '/api/**': {
@@ -14,6 +20,7 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/less/global.less'],
   plugins: [
+    '~/plugins/globalErrorHandler.js',
     '~/plugins/MessageBox/index.ts',
     '~/plugins/Axios/index.ts',
   ],
