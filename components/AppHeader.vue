@@ -71,6 +71,7 @@ header {
                 }
 
                 svg {
+                    display: inline-block;
                     transition: .3s;
                     transform: rotate(180deg);
                     margin-left: 7px;

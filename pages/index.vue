@@ -643,6 +643,7 @@ h2 {
 }
 
 .svg-toggle {
+    display: inline-block;
     width: 102px;
     height: 28px;
     position: relative;
@@ -765,6 +766,7 @@ hr {
 }
 
 .icon-add {
+    display: inline-block;
     font-size: 18px;
 
     :deep(path) {

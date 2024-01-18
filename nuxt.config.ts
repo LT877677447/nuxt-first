@@ -8,7 +8,8 @@ export default defineNuxtConfig({
   modules: [
     '@element-plus/nuxt',
     'nuxt-svgo',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss'
   ],
   routeRules: {
     '/api/**': {
